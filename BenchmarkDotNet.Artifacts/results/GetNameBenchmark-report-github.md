@@ -15,5 +15,7 @@ WarmupCount=10  TargetCount=200
 ```
      Method |     Median |    StdDev |
 ----------- |----------- |---------- |
- Reflection | 16.0088 ns | 0.7606 ns |
-     NameOf |  0.0018 ns | 0.0248 ns |
+ Reflection | 16.0348 ns | 0.7896 ns |
+     NameOf |  0.0005 ns | 0.0147 ns |
+ GetNameBenchmark_Reflection_WarmupCount10_TargetCount200_LaunchCount2
+  GetNameBenchmark_NameOf_WarmupCount10_TargetCount200_LaunchCount2

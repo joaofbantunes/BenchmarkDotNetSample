@@ -15,7 +15,7 @@ namespace BenchmarkDotNetSample
                         .WithLaunchCount(2)
                         .WithWarmupCount(10)
                         .WithTargetCount(200)
-                ).With());
+                ));
         }
     }
 }
