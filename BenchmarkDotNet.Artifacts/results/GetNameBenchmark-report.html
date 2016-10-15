@@ -1,0 +1,19 @@
+<pre><code>
+Host Process Environment Information:
+BenchmarkDotNet.Core=v0.9.9.0
+OS=Windows
+Processor=?, ProcessorCount=8
+Frequency=2740584 ticks, Resolution=364.8857 ns, Timer=TSC
+CLR=CORE, Arch=64-bit ? [RyuJIT]
+GC=Concurrent Workstation
+dotnet cli version: 1.0.0-preview2-003133
+</code></pre>
+<pre><code>Type=GetNameBenchmark  Mode=Throughput  LaunchCount=2  
+WarmupCount=10  TargetCount=200  
+</code></pre>
+
+<table>
+<tr><th>Method</th><th>Median</th><th>StdDev</th>
+</tr><tr><td>Reflection</td><td>16.0088 ns</td><td>0.7606 ns</td>
+</tr><tr><td>NameOf</td><td>0.0018 ns</td><td>0.0248 ns</td>
+</tr></table>

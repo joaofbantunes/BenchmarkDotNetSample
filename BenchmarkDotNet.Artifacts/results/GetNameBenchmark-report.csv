@@ -1,0 +1,4 @@
+Type;Method;Mode;Platform;Jit;Toolchain;Runtime;GcMode;LaunchCount;WarmupCount;TargetCount;Affinity;Median;StdDev
+GetNameBenchmark;Reflection;Throughput;Host;Host;Host;Host;Host;2;10;200;Auto;16.0088 ns;0.7606 ns
+GetNameBenchmark;NameOf;Throughput;Host;Host;Host;Host;Host;2;10;200;Auto;0.0018 ns;0.0248 ns
+;0.0229 ns
